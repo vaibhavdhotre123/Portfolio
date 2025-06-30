@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100">
+  <div class="flex flex-col lg:flex-row min-h-screen">
+    <!-- Sidebar -->
+  <aside class="bg-gradient-to-b from-white to-blue-50 p-6 space -y-13 shadow-xl w-full lg:w-1/4 text-center rounded-lg border border-gray-200">
+  <img src="images/vv.jpg" alt="Profile" class="w-52 h-32 mx-auto border-4 shadow-md mb-4 object-cover hover:scale-105 transition-transform duration-300" />
+  <h3 class="text-2xl font-bold text-blue-800">Vaibhav Dhotre</h3>
+  <h4 class="text-gray-600 text-sm italic">Full Stack Software Developer</h4>
+
+  <hr class="my-4 border-gray-300 w-2/3 mx-auto">
+
+  <ul class="text-left space-y-3 text-sm text-gray-700 mx-11">
+    <li class="flex items-center gap-2"><i class="ri-mail-unread-fill text-blue-600"></i> <span>vvaibhavdhotre@gmail.com</span></li>
+    <li class="flex items-center gap-2"><i class="ri-phone-fill text-green-600"></i> <span>8767763597</span></li>
+    <li class="flex items-center gap-2"><i class="ri-map-pin-user-fill text-red-500"></i> <span>Waluj, Aurangabad</span></li>
+    <li class="flex items-center gap-2"><i class="ri-code-box-fill text-purple-500"></i> <span>Django, React, REST API, AWS, Azure</span></li>
+  </ul>
+
+  <div class="flex justify-center gap-5 mt-6 text-xl">
+    <a href="https://www.linkedin.com/in/vaibhav-dhotre-aba6a7252/" class="text-blue-700 hover:scale-110 transition-transform"><i class="ri-linkedin-box-fill"></i></a>
+    <a href="https://github.com/vaibhavdhotre123" class="text-black hover:scale-110 transition-transform"><i class="ri-github-fill"></i></a>
+    <a href="https://x.com/vvaibhavdhotre" class="text-blue-400 hover:scale-110 transition-transform"><i class="ri-twitter-fill"></i></a>
+  </div>
+
+  <button onclick="openForm()" class="mt-6 px-3 py-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white font-medium rounded-full shadow hover:from-blue-700 hover:to-blue-900 transition-colors">Get in Touch</button>
+</aside>
+
+    <!-- Main content -->
+    <main class="flex-1 p-6">
+      <div class="flex justify-end">
+        <button class="bg-gray-800 text-white px-4 py-2 rounded"> <a href="https://drive.google.com/file/d/1raHIICQS3Kg30dh7l22490duxG404ujK/view?usp=drive_link">Download Resume</a></button>
+      </div>
+
+      <section class="mt-6">
+        <h3 class="text-lg font-semibold">About Me:</h3>
+        <p class="mt-2 text-gray-700">Hello I am Vaibhav Dhotre, currently pursuing BCA from NSBT (CHHATRAPATI SAMBHAJINAGAR). I love developing applications, exploring new technologies, and have a strong interest in cloud computing, cybersecurity, entrepreneurship, and editing.</p>
+      </section>
+
+      <hr class="my-6">
+
+      <section>
+        <h3 class="text-lg font-semibold">Skills</h3>
+        <ul class="list-disc list-inside mt-2 space-y-1 mx-3">
+          <li>Languages: Python, Java, PHP, SQL, Shell Scripting</li>
+          <li>Frameworks: Django, REST API, MongoDB, Express, CodeIgniter</li>
+          <li>AWS Cloud: S3, EC2, RDS, Beanstalk</li>
+          <li>Freelancing: Dhananjay Auto, Swajit & Pooja Engineering</li>
+        </ul>
+      </section>
+
+      <hr class="my-6">
+
+      <section>
+        <h3 class="text-lg font-semibold mb-4">Projects</h3>
+        <div class="grid gap-4 md:grid-cols-2">
+          <div class="bg-white p-4 rounded shadow">
+            <img src="images/developer_5044785.png" alt="" class="w-12 mb-2">
+            <h4 class="font-semibold">Garage Inventory System</h4>
+            <h5> <span style="color: black;">Tech-Stack:</span> Django, React Js, SQL lite, AWS </h5>
+            <p class="text-sm">This Application help Owner to Manage Staff, Material, Accessoeries and Enqueries, help in reaching Out To Many Valuable Customers </p>
+            <a href="https://github.com/vaibhavdhotre123/Projects" class="text-blue-600 text-sm inline-block mt-2"><i class="ri-github-fill"></i> GitHub Profile</a>
+          </div>
+
+          <div class="bg-white p-4 rounded shadow">
+            <img src="images/android.png" alt="" class="w-12 mb-2">
+            <h4 class="font-semibold">Bajaj EdU-HUB</h4>
+            <p class="text-sm">This Application is build for Seminar and Workshops Purpose with Quizz, Assignments and Overall Idea of Growth</p>
+            <a href="https://github.com/vaibhavdhotre123/Projects" class="text-blue-600 text-sm inline-block mt-2"><i class="ri-github-fill"></i> GitHub Profile</a>
+          </div>
+
+          <div class="bg-white p-4 rounded shadow">
+            <img src="images/AWS.png" alt="" class="w-8 mb-2">
+            <h4 class="font-semibold">Virtual Text-Editor</h4>
+            <p class="text-sm">This Helps in Writing Presentation and Passage with Auto-saved options and Various Cutomize Options</p>
+            <a href="https://github.com/vaibhavdhotre123" class="text-blue-600 text-sm inline-block mt-2"><i class="ri-github-fill"></i> GitHub Profile</a>
+          </div>
+
+          <div class="bg-white p-4 rounded shadow">
+            <img src="images/editing.png" alt="" class="w-12 mb-2">
+            <h4 class="font-semibold">Soon Available</h4>
+            <p class="text-sm"></p>
+            <!-- <a href="https://github.com/vaibhavdhotre123" class="text-blue-600 text-sm inline-block mt-2"><i class="ri-github-fill"></i> GitHub Profile</a> -->
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-6">
+
+      <section>
+        <h3 class="text-lg font-semibold mb-2">Contact Us</h3>
+        <div class="space-y-4">
+          <input type="text" placeholder="Username" class="w-full border px-4 py-2 rounded" />
+          <input type="email" placeholder="Enter email" class="w-full border px-4 py-2 rounded" />
+          <button class="bg-green-600 text-white px-4 py-2 rounded">Submit</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Contact Form Popup -->
+  <div id="popupForm" class="fixed top-[-100%] left-1/2 transform -translate-x-1/2 w-full max-w-md bg-white p-6 rounded shadow transition-all duration-500 z-50">
+    <h2 class="text-xl font-bold mb-4">Get in Touch</h2>
+    <form>
+      <label class="block mb-2">Name</label>
+      <input type="text" class="w-full mb-4 border px-3 py-2 rounded" required />
+      <label class="block mb-2">Email</label>
+      <input type="email" class="w-full mb-4 border px-3 py-2 rounded" required />
+      <label class="block mb-2">Message</label>
+      <textarea rows="4" class="w-full mb-4 border px-3 py-2 rounded" required></textarea>
+      <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Submit</button>
+    </form>
+  </div>
+
+  <div id="overlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 hidden z-40"></div>
+
+  <script>
+    function openForm() {
+      document.getElementById('popupForm').style.top = '20px';
+      document.getElementById('overlay').classList.remove('hidden');
+    }
+    document.getElementById('overlay').addEventListener('click', () => {
+      document.getElementById('popupForm').style.top = '-100%';
+      document.getElementById('overlay').classList.add('hidden');
+    });
+  </script>
+</body>
+
+</html>
